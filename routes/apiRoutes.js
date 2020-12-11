@@ -1,11 +1,18 @@
 //Variable Declaration to link the notesData file which holds arrays of information
-const notesData = require("../data/notesData");
+const fs = require("fs");
 
 
 module.exports = (app) => {
     //API GET Requests
     app.get('/api/notes', (req, res) => {
-        res.json(notesData);
+        
+        fs.readFile(__dirname + "/../db/db.json", "utf8", (error, text) => {
+            if (error) {
+               console.log(error) 
+            }
+            console.log(text);
+            res.json(JSON.parse(text));
+        })
     })
 
 
