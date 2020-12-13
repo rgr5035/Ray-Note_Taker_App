@@ -1,4 +1,4 @@
-# Team Builder Application
+# Note Taker Application
 
 ## Description
 
@@ -40,7 +40,7 @@ IMPORTANT: The starter code that we were given for this assignment was supposed 
 
 ## Screenshot
 
-
+![image](https://user-images.githubusercontent.com/70773240/102024025-8ef28780-3d4c-11eb-8b23-b27db369a200.png)
 
 ## Contributing
 
