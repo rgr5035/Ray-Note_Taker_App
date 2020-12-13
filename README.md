@@ -28,7 +28,7 @@ Step 4: Run 'npm install' in your terminal in line command
 
 Step 5: Run 'node server.js' in your terminal in line command to run the application on the local host 3000
 
-Step 6: Navigate to localhost/3000/index in your browser to run the application in your browser
+Step 6: Navigate to localhost:3000/index in your browser to run the application in your browser
 
 Step 7: Click 'Get Started' on the index page to navigate to the notes page
 
