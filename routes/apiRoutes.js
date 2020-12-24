@@ -24,7 +24,7 @@ module.exports = (app) => {
             }
 
             text = JSON.parse(text);
-            
+            req.body.id = Date.now();
             text.push(req.body);
 
             fs.writeFile(__dirname + "/../db/db.json", JSON.stringify(text), error => {
